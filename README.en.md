@@ -2,10 +2,11 @@
 
 #### Description [中文](README.md)
 
-This is a library based on the Hongmeng version, which is a simplified and encapsulated version of the WeChat third-party functions. It enables sharing of text, sharing of images, share the webpage, sharing of mini-programs, opening of mini-programs, and opening of WeChat.
+This is the HONAM version that outputs logs through the log console. By shaking the phone, the console logs will be displayed, enabling us to quickly locate the problem and accurately identify it.
+
 #### Software Architecture 
 
-This is the Hongmeng version based on the WeChat Open Platform
+Utilize the AOP aspect capabilities provided by the Aspect tool class to implement monitoring and printing of log messages. Open the console log output page by shaking the mobile phone.
 #### Installation
 
 `ohpm install @free/log`

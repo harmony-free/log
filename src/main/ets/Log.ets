@@ -165,7 +165,6 @@ export class SensorUtils {
   }
 
   close(){
-    console.error(`close=========================================`);
     try {
       sensor.off(sensor.SensorId.ACCELEROMETER, this.action.bind(this));
     } catch (error) {
