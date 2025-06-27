@@ -3,6 +3,10 @@
     {
       "name": "page_show",
       "value": "page from package"
+    },
+    {
+      "name": "sensor_reason",
+      "value": "需要使用加速度传感器和陀螺仪获取日志"
     }
   ]
 }

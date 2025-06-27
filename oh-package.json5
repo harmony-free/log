@@ -1,9 +1,19 @@
 {
-  "name": "log",
+  "name": "@free/log",
   "version": "1.0.0",
-  "description": "Please describe the basic information.",
+  "description": "这是鸿蒙版本基于log控制台输出日志，通过摇晃手机弹出控制台输出日志，为我们快速的定位问题，找准的找到问题。",
   "main": "Index.ets",
-  "author": "",
-  "license": "Apache-2.0",
+  "keywords": [
+    "openLog",
+    "closeLog",
+    "log"
+  ],
+  "author": {
+    "name": "余邦锦",
+    "email": "15179861454@163.com"
+  },
+  "homepage": "https://gitee.com/harmony-free",
+  "repository": "https://gitee.com/harmony-free/log",
+  "license": "MIT",
   "dependencies": {}
 }

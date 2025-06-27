@@ -6,6 +6,16 @@
       "default",
       "tablet",
       "2in1"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.GYROSCOPE",
+        "reason": "$string:sensor_reason"
+      },
+      {
+        "name": "ohos.permission.ACCELEROMETER",
+        "reason": "$string:sensor_reason"
+      }
     ]
   }
 }
