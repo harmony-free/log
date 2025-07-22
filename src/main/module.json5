@@ -1,21 +1,22 @@
 {
-  "module": {
-    "name": "log",
-    "type": "har",
-    "deviceTypes": [
-      "default",
-      "tablet",
-      "2in1"
-    ],
-    "requestPermissions": [
-      {
-        "name": "ohos.permission.GYROSCOPE",
-        "reason": "$string:sensor_reason"
-      },
-      {
-        "name": "ohos.permission.ACCELEROMETER",
-        "reason": "$string:sensor_reason"
-      }
-    ]
-  }
+	"module": {
+		"name": "log",
+		"type": "har",
+		"deviceTypes": [
+			"default",
+			"tablet",
+			"2in1"
+		],
+		"requestPermissions": [
+			{
+				"name": "ohos.permission.GYROSCOPE",
+				"reason": "$string:sensor_reason"
+			},
+			{
+				"name": "ohos.permission.ACCELEROMETER",
+				"reason": "$string:sensor_reason"
+			}
+		],
+		"routerMap": "$profile:route_map"
+	}
 }
